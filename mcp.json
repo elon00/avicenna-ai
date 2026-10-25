@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "avicenna-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "AVICENNA",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "evaluate_compound_pharmacokinetics",
+          "description": "Calculates herbal and mineral compound bio-absorption and therapeutic indices",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "substance_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "substance_id"
+            ]
+          }
+        },
+        {
+          "name": "validate_clinical_trial_criteria",
+          "description": "Verifies 7-point clinical test protocols (efficacy, non-confounding, replicability)",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "cohort_size": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "cohort_size"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
