@@ -1,0 +1,14 @@
+{
+  "project": "avicenna-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "Csi3Ew4fqGtdLiVuAFBp8K3atCWBKvBjKWJjfPRmhVmM",
+  "vault_account": "GRCwFDZza1kHDc8iQFvoG692U3zNeVTEd4oQHECxNPWS",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "GaRm8eeyAZwDLYF2UTS7VvkC6GYQ22HLoPAgXRZBwbBN19QFaQjBjz1HFRNfXysPwknDh4eQescA7HbutbjPzgP",
+  "account_tx": "iqxCq4xiTZL8BMTJHxMvnrocKi6bWAnR48nuGjMnQu3vLezyzJUSs6TAEK6sci9oZkSppqfqMzvmmn13ABNBhcS",
+  "mint_tx": "2JzXYaxkQJBqcwRYXwHGaDYDNzaDwk9m1ViQgD4V4xKUbHw4RDDcAhHyd825D2Y5ZjmEPwL6AEBw1EzHvBhPiuNp",
+  "solana_explorer_mint": "https://explorer.solana.com/address/Csi3Ew4fqGtdLiVuAFBp8K3atCWBKvBjKWJjfPRmhVmM?cluster=devnet",
+  "timestamp": "2026-10-26 16:21:01 UTC"
+}
